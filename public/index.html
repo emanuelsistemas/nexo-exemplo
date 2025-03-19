@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Nexo PDV - Sistema de ponto de venda com tema cyberpunk"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Importar a fonte MuseoModerno diretamente do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=MuseoModerno:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/title-style.css">
+    <title>nexo pdv</title>
+    <!-- Configuração para rotas de base -->
+    <base href="/" />
+    <!-- Script para debug de tela branca -->
+    <script>
+      window.addEventListener('error', function(e) {
+        console.error('Error:', e.message);
+        document.body.innerHTML = '<div style="padding: 20px; color: red;">Erro no carregamento: ' + e.message + '</div>';
+      });
+    </script>
+  </head>
+  <body>
+    <noscript>Você precisa habilitar o JavaScript para executar este aplicativo.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

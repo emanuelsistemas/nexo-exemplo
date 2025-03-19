@@ -1,0 +1,15 @@
+/* Estilo personalizado para o título da página */
+/* A fonte MuseoModerno é importada via Google Fonts no index.html */
+
+/* Adicionar definição de fonte personalizada */
+body {
+  font-family: 'MuseoModerno', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o título na aba do navegador */
+title {
+  font-family: 'MuseoModerno', cursive;
+  color: #00ff41;
+}
